@@ -1,4 +1,11 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Hero Section */
 #hero {
   display: flex;
@@ -60,23 +67,16 @@
 }
 
 .tech-badges span:hover {
-  background: #00c6ff;
-  color: #111;
+  /* background: #00c6ff; */
+ /* background: linear-gradient(135deg, #4884eb, #7825d0); */
+  /* color: #111; */
 }
 
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
 
 body {
   line-height: 1.6;
-  background: #0f2027; /* dark base */
+  background: #0f2027; 
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
   color: #e0e0e0;
 }
 
@@ -90,7 +90,7 @@ header {
   z-index: 1000;
 }
 
-nav {
+nav {   
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,6 +147,7 @@ nav ul li a:hover {
 
 #hero a {
   background: linear-gradient(135deg, #ffdd57, #ffc107);
+   /* background: linear-gradient(135deg, #2575fc, #6a11cb); */
   color: #333;
   padding: 12px 24px;
   border-radius: 8px;
@@ -163,10 +164,10 @@ nav ul li a:hover {
 /* ===== About Section ===== */
 #about {
   padding: 60px 20px;
-  max-width: 900px;
+  max-width: 995px;
   margin: auto;
   text-align: center;
-  background: #16222a;
+  /* background: #16222a; */
   border-radius: 12px;
 }
 
@@ -198,7 +199,8 @@ nav ul li a:hover {
   text-align: center;
   margin-bottom: 40px;
   font-size: 28px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -221,6 +223,13 @@ nav ul li a:hover {
   gap: 15px;
 }
 
+.skills-grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(181px, 1fr));
+  gap: 15px;
+}
+
+
 .skill-card {
   background: #222;
   border-radius: 12px;
@@ -241,7 +250,8 @@ nav ul li a:hover {
 /* ===== Project Section ===== */
 #project {
   padding: 60px 20px;
-  background: #111;
+  background: #0f2027;
+  /* background: #111; */
 }
 
 #project h2 {
@@ -290,6 +300,7 @@ nav ul li a:hover {
 
 .project-card .btn {
   display: inline-block;
+    /* background: #ffca28; */
   background: linear-gradient(135deg, #2575fc, #6a11cb);
   color: #fff;
   padding: 8px 14px;
@@ -309,7 +320,7 @@ nav ul li a:hover {
   max-width: 900px;
   margin: auto;
   text-align: center;
-  background: #16222a;
+  /* background: #16222a; */
   border-radius: 12px;
 }
 
